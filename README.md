@@ -1,3 +1,7 @@
 # ECE444-F2023-Lab5
 
 #This repo is a replayed example from: https://github.com/mjhea0/flaskr-tdd
+
+#Testing is a crucial step in code development to ensure your program is working correctly and the users won't run into any issues.
+The benefits of test driven development (TDD) is it's efficiency and ease of testing. When the tests are set up and the code writing begins, it can automatically can be run each time additions are made without having to think of what tests need to be done every time. The developer gets fast feedback about the success or failuer of the test. Detailed tests can be written and rerun every time to be able to test all cases and not have any details forgetten compared to testing manually. Finally, it is very easy to add more tests for new functionalities while still testing the old ones to make sure nothing previous has failed.
+While TDD does speed up the testing and debugging process, it does have some drawbacks. The tests have to be always maintained and updated which can be time consuming as tests can be complex so they cover all required cases. If the rewuirements change, the tests have to be changed first before the functions can be written or changed. TDD requires more training and higher skill for developers to write effective tests so more time has to be put in to learn how to write good tests. It can also slow down development if it doesn't suit the workflow or is unable to reliably and comprehensive test a function.
